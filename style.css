@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black; 
+}
+
+body {
+    background-image: url('https://www.tastingtable.com/img/gallery/how-to-tell-if-a-lemon-has-gone-bad/l-intro-1657744775.jpg');
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+}
+
+.image{
+    margin: 20px;
+    width: auto;
+    height: 200px;
+}
+
+.link1 p {
+    margin: 20px;
+    color: orange;
+}
+
+.link1:hover {
+    color: red;
+    text-decoration: line-through;
+}
+
+.link2 p {
+    margin: 20px;
+    color: lightblue;
+}
+
+.link2:hover {
+    color: violet;
+    text-decoration: overline;
+}
+
+.link3 p{
+    margin: 20px; 
+    color: green;
+}
+
+.link3:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
